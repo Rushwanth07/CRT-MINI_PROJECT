@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+nav{
+
+  position:sticky;
+  top:0;
+  z-index:1000;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:18px 50px;
+
+  background:rgba(15,23,42,.95);
+
+  backdrop-filter:blur(12px);
+
+  box-shadow:
+  0 8px 20px rgba(0,0,0,.08);
+}
+
+.logo-section{
+
+  display:flex;
+  flex-direction:column;
+}
+
+.logo-section h2{
+
+  color:white;
+
+  font-size:30px;
+
+  font-weight:800;
+
+  line-height:1;
+}
+
+.logo-section span{
+
+  color:rgba(255,255,255,.7);
+
+  font-size:11px;
+
+  letter-spacing:3px;
+
+  margin-top:6px;
+
+  text-transform:uppercase;
+}
+
+nav ul{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:25px;
+
+  list-style:none;
+}
+
+nav a{
+
+  text-decoration:none;
+
+  color:white;
+
+  font-weight:500;
+
+  transition:.3s;
+}
+
+nav a:hover{
+
+  color:#3b82f6;
+}
+
+.user-chip{
+
+  background:rgba(255,255,255,.1);
+
+  color:white;
+
+  padding:8px 14px;
+
+  border-radius:30px;
+
+  font-weight:600;
+}
+
+.logout-btn{
+
+  background:#3b82f6;
+
+  color:white;
+
+  border:none;
+
+  padding:10px 18px;
+
+  border-radius:10px;
+
+  cursor:pointer;
+
+  font-weight:600;
+
+  transition:.3s;
+}
+
+.logout-btn:hover{
+
+  transform:translateY(-2px);
+
+  background:#2563eb;
+}

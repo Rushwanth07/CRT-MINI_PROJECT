@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  min-height: 100vh;
+}
+
+.hero {
+  position: relative;
+
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(37,99,235,0.95),
+      rgba(30,64,175,0.95)
+    ),
+    url("https://images.unsplash.com/photo-1556740749-887f6717d7e4");
+
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+}
+
+.hero-content {
+  max-width: 900px;
+  padding: 20px;
+  z-index: 2;
+}
+
+.hero-badge {
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  background: rgba(255,255,255,0.2);
+
+  border-radius: 50px;
+
+  margin-bottom: 25px;
+
+  backdrop-filter: blur(10px);
+}
+
+.hero h1 {
+  font-size: 72px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 22px;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.primary-btn,
+.secondary-btn,
+.cta-btn {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.primary-btn {
+  background: #f59e0b;
+  color: white;
+}
+
+.secondary-btn {
+  background: white;
+  color: #2563eb;
+}
+
+.cta-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover,
+.cta-btn:hover {
+  transform: translateY(-5px);
+}
+
+.stats-section {
+  padding: 80px 50px;
+
+  background: #f8fafc;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+
+  gap: 25px;
+}
+
+.stat-card {
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+}
+
+.stat-card h2 {
+  color: #2563eb;
+  font-size: 40px;
+}
+
+.featured-section {
+  padding: 100px 60px;
+}
+
+.featured-section h2,
+.how-section h2,
+.cta-section h2 {
+  text-align: center;
+  font-size: 44px;
+  color: #1e293b;
+  margin-bottom: 50px;
+}
+
+.auction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 30px;
+}
+
+.auction-card {
+  background: white;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+  transition: 0.3s;
+}
+
+.auction-card:hover {
+  transform: translateY(-10px);
+}
+
+.auction-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.auction-card h3,
+.auction-card p {
+  padding: 15px;
+}
+
+.auction-card button {
+  margin: 15px;
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #2563eb;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.how-section {
+  background: #f8fafc;
+  padding: 100px 60px;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 25px;
+}
+
+.step-card {
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+  transition: 0.3s;
+}
+
+.step-card:hover {
+  transform: translateY(-10px);
+}
+
+.step-number {
+  width: 70px;
+  height: 70px;
+
+  margin: auto auto 20px;
+
+  border-radius: 50%;
+
+  background: #2563eb;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.cta-section p {
+  margin-bottom: 30px;
+  color: #64748b;
+  font-size: 18px;
+}

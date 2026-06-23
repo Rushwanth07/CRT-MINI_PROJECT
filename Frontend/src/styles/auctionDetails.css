@@ -1,0 +1,165 @@
+.auction-details-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.auction-header-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+  margin-bottom: 40px;
+}
+
+.auction-details-image {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.auction-content {
+  padding: 30px;
+}
+
+.auction-content h1 {
+  color: #2563eb;
+  margin-bottom: 15px;
+  font-size: 42px;
+}
+
+.auction-content p {
+  color: #64748b;
+  margin-bottom: 25px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.auction-stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 15px;
+  min-width: 220px;
+
+  transition: 0.3s;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card h3 {
+  margin-bottom: 10px;
+}
+
+.info-card span {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.active-status {
+  color: #16a34a;
+}
+
+.closed-status {
+  color: #dc2626;
+}
+
+.bid-section {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+  margin-bottom: 30px;
+}
+
+.bid-section h2 {
+  margin-bottom: 20px;
+}
+
+.bid-form {
+  display: flex;
+  gap: 15px;
+}
+
+.bid-form input {
+  flex: 1;
+
+  padding: 15px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+}
+
+.bid-form button {
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 15px 30px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.bid-form button:hover {
+  background: #1d4ed8;
+}
+
+.auction-closed-message {
+  text-align: center;
+
+  color: #dc2626;
+
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+.bid-history-section {
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.bid-history-section h2 {
+  margin-bottom: 20px;
+}
+
+.bid-history-card {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 15px;
+
+  border-bottom: 1px solid #eee;
+}
+
+.bid-history-card:last-child {
+  border-bottom: none;
+}
